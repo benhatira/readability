@@ -31,7 +31,8 @@ ActionController::Routing::Routes.draw do |map|
   #     # Directs /admin/products/* to Admin::ProductsController (app/controllers/admin/products_controller.rb)
   #     admin.resources :products
   #   end
-  map.readability 'readability/json' , :controller => "service" , :action => "json"
+  map.readability_json 'readability/json' , :controller => "service" , :action => "json"
+  map.readability_text 'readability/text' , :controller => "service" , :action => "text"
   # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
   # map.root :controller => "welcome"
 

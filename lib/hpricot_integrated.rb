@@ -210,6 +210,7 @@ class Hpricot::Doc
         tagsList      = self.search(cleartag)
         curTagsLength = tagsList.length
         tagsList.each do |tag|
+         #   puts tag.inner_text if tag.name == "div"
          #   p tag
             weight = tag.getClassWeight
             contentScore = (tag.initialized) ? tag.contentScore : 0
@@ -236,11 +237,12 @@ class Hpricot::Doc
 
                 if img > p and contentLength < 25
                     puts tag.name + tag.attributes['id'] + tag.attributes['class'] +' img>p'
+                     #puts tag.inner_html
                     toRemove = true
                 elsif li > p and cleartag != "ul" && cleartag != "ol"
                   puts tag.name + tag.attributes['id'] + tag.attributes['class'] +' li>p'
                     toRemove = true
-                elsif input > (p/3).floor 
+                elsif input > (p/3).floor and contentLength < 25
                   puts tag.name + tag.attributes['id'] + tag.attributes['class'] + ' input>p/3'
                     toRemove = true 
                 elsif contentLength < 25 and (img == 0 or img > 2) 
@@ -278,7 +280,7 @@ class Hpricot::Doc
       #large_size = 0
        self.search('img').each do |img|
             url =  img.attributes['src']
-            puts url
+#            puts url
             next if url.match(/\.gif$/)
             if(base_url.match(/pantip\.com/))
               url = base_url.gsub(/\.html/,'-0.jpg')
@@ -318,7 +320,7 @@ class Hpricot::Doc
           return nil
         end
        
-      def prepArticle
+      def prepArticle(base_url)
           #self.cleanStyles(articleContent);
           #readability.killBreaks(articleContent);
 
@@ -332,7 +334,6 @@ class Hpricot::Doc
     #       * If there is only one h2, they are probably using it
     #       * as a header and not a subheader, so remove it since we already have a header.
 
-
           self.clean( "h2") if self.search('h2').length == 1 
 
 
@@ -340,12 +341,16 @@ class Hpricot::Doc
 
   #todo clear header
           self.cleanHeaders
-
       #    /* Do these last as the previous stuff may have removed junk that will affect these */
           self.cleanConditionally("table")
           self.cleanConditionally("ul")
+          #puts "============debug div clean============"
+          if(base_url.match(/dek-d\.com/i))
+              self.search('div#rightpanel').remove
+          end
           self.cleanConditionally("div")
-
+           #puts "============end  debug div clean============"
+           
         #  /* Remove extra paragraphs */
           self.search('p').each do |p|
               imgCount    = p.search('img').length

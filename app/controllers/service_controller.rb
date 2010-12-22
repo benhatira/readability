@@ -15,6 +15,21 @@ class ServiceController < ApplicationController
     render :text => ret
   end
   
+  def text
+    url = params[:url]
+    ret = "{}"
+    @page = Page.new
+    if url.present?
+      unless @page = Page.find_by_url(url)
+        json = readability_digest(params[:url])
+        @page = Page.new(json)
+      end    
+      @page.content = truncate(@page.content , :length => 250, :omission => ' ...')
+    end
+    ret = "url: #{@page.url}<br>title: #{@page.title} <br>content: #{@page.content}<br>image: #{@page.image}<br>embed: #{@page.embed}"
+    render :text => ret
+  end
+  
   def readability_digest(url)
     content = `curl #{url}`
     if content.match(/charset=tis-620/i)
@@ -101,9 +116,8 @@ class ServiceController < ApplicationController
     end
     screenshot = topCandidate.grabImage(url)
     screenshot = topCandidate.parent.grabImage(url) unless screenshot
-    puts topCandidate.inner_html
     embed = hcontent.at("body").grabEmbed(url)
-    topCandidate.prepArticle
+    topCandidate.prepArticle(url)
     puts topCandidate.name + ' ' + topCandidate.contentScore.to_s + ' ' + ' ' + topCandidate.inner_content.length.to_s + ' ' + articleTitle 
     puts topCandidate.inner_content#content#Iconv.conv('UTF-8//ignore', 'tis-620', topCandidate.inner_text.gsub(/\s+/,' '))
     return {:url => url ,:title => articleTitle , :content => topCandidate.inner_content , :image => screenshot , :embed => embed}
