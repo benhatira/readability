@@ -1,0 +1,2110 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:00:02) [GET]
+
+ActionView::MissingTemplate (Missing template service/json.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:00:49) [GET]
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:01:48) [GET]
+  Parameters: {"url"=>"curl http://mumei-nil.exteen.com/20100706/entry"}
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=curl%20http://mumei-nil.exteen.com/20100706/entry]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:01:53) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://mumei-nil.exteen.com/20100706/entry]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:03:55) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NameError (uninitialized constant ServiceController::Hpricot):
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (26.5ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:04:40) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `readability_digest' for Hpricot:Module):
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (27.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:05:04) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `readability_digest' for Hpricot:Module):
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (27.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:05:07) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `readability_digest' for Hpricot:Module):
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (84.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:05:10) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `readability_digest' for Hpricot:Module):
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (25.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:07:35) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `readability_digest' for Hpricot:Module):
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (27.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:07:37) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `readability_digest' for Hpricot:Module):
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (83.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:08:26) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `curl' for HpricotIntegrated::Hpricot:Module):
+  lib/hpricot_integrated.rb:323:in `readability_digest'
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (34.1ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:09:08) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NameError (uninitialized constant HpricotIntegrated::Hpricot::Elem):
+  lib/hpricot_integrated.rb:348:in `readability_digest'
+  hpricot (0.8.2) lib/hpricot/traverse.rb:331:in `each'
+  hpricot (0.8.2) lib/hpricot/traverse.rb:331:in `search'
+  lib/hpricot_integrated.rb:345:in `readability_digest'
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (99.8ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:12:27) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `Hpricot' for Hpricot:Module):
+  lib/hpricot.rb:337:in `readability_digest'
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (30.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:13:05) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `Hpricot' for Hpricot:Module):
+  lib/hpricot.rb:337:in `readability_digest'
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (30.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:13:09) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `Hpricot' for Hpricot:Module):
+  lib/hpricot.rb:337:in `readability_digest'
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (39.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:15:16) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `Hpricot' for Hpricot:Module):
+  lib/hpricot.rb:337:in `readability_digest'
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (32.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:17:04) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `Hpricot' for #<ServiceController:0x103719298>):
+  app/controllers/service_controller.rb:28:in `readability_digest'
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (31.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+/!\ FAILSAFE /!\  Mon Dec 13 14:18:55 +0700 2010
+  Status: 500 Internal Server Error
+  Expected /Users/note/Projects/readability_service/lib/hpricot.rb to define Hpricot
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:426:in `load_missing_constant'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:80:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:92:in `const_missing'
+    /Users/note/Projects/readability_service/lib/hpricot.rb:5
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_file'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:379:in `load_file'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:80:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:92:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:437:in `load_missing_constant'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:96:in `const_missing'
+    /Users/note/Projects/readability_service/app/controllers/application_controller.rb:5
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_file'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:379:in `load_file'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:80:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:92:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:19:19) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `Hpricot' for #<ServiceController:0x103789930>):
+  app/controllers/service_controller.rb:28:in `readability_digest'
+  app/controllers/service_controller.rb:4:in `json'
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#json (for 127.0.0.1 at 2010-12-13 14:19:59) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+LoadError (Expected /Users/note/Projects/readability_service/lib/hpricot.rb to define Hpricot):
+  lib/hpricot.rb:5
+  app/controllers/service_controller.rb:2
+
+Rendered rescues/_trace (31.7ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#json (for 127.0.0.1 at 2010-12-13 14:21:25) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+TypeError (can't convert Module into String):
+  app/controllers/service_controller.rb:2
+
+Rendered rescues/_trace (27.7ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:21:51) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `removeScripts' for #<Hpricot::Doc:0x103355990>):
+  app/controllers/service_controller.rb:32:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (95.6ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:23:06) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `removeScripts' for #<Hpricot::Doc:0x10372e800>):
+  app/controllers/service_controller.rb:32:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:33:21) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+NoMethodError (undefined method `removeScripts' for #<Hpricot::Doc:0x1032dfa10>):
+  app/controllers/service_controller.rb:32:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#json (for 127.0.0.1 at 2010-12-13 14:34:28) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+
+TypeError (wrong argument type String (expected Module)):
+  app/controllers/service_controller.rb:2:in `include'
+  app/controllers/service_controller.rb:2
+
+Rendered rescues/_trace (26.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:35:00) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+Completed in 669ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://mumei-nil.exteen.com/20100706/entry]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:40:31) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+Completed in 482ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://mumei-nil.exteen.com/20100706/entry]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:41:06) [GET]
+  Parameters: {"url"=>"http://mumei-nil.exteen.com/20100706/entry"}
+Completed in 470ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://mumei-nil.exteen.com/20100706/entry]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:42:40) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017876/C10017876.html"}
+Completed in 1007ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017876/C10017876.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:49:21) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017876/C10017876.html"}
+Completed in 1007ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017876/C10017876.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:49:53) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017876/C10017876.html"}
+Completed in 1023ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017876/C10017876.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:51:27) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+Completed in 1173ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.soccersuck.com/soccer/viewtopic.php?t=361679]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:53:18) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/woman/topic/Q10017072/Q10017072.html"}
+Completed in 1297ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/woman/topic/Q10017072/Q10017072.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:55:43) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/woman/topic/Q10017072/Q10017072.html"}
+Completed in 1334ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/woman/topic/Q10017072/Q10017072.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:55:54) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/woman/topic/Q10017072/Q10017072.html"}
+Completed in 1408ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/woman/topic/Q10017072/Q10017072.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:59:01) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/woman/topic/Q10017072/Q10017072.html"}
+Completed in 1419ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/woman/topic/Q10017072/Q10017072.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 14:59:18) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 329ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:02:49) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 592ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#json (for 127.0.0.1 at 2010-12-13 15:08:13) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+
+SyntaxError (/Users/note/Projects/readability_service/app/controllers/service_controller.rb:120: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (24.8ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#json (for 127.0.0.1 at 2010-12-13 15:08:42) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+
+SyntaxError (/Users/note/Projects/readability_service/app/controllers/service_controller.rb:120: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (23.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#json (for 127.0.0.1 at 2010-12-13 15:08:44) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+
+SyntaxError (/Users/note/Projects/readability_service/app/controllers/service_controller.rb:120: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (27.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:09:02) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 474ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:11:48) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 404ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:18:35) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 471ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:20:33) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 590ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:23:33) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 538ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:31:10) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 617ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:32:28) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 517ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:32:31) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 572ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:35:14) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/all/23070/"}
+Completed in 742ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/all/23070/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:36:22) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+Completed in 3045ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.soccersuck.com/soccer/viewtopic.php?t=361679]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:37:50) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017876/C10017876.html"}
+Completed in 1791ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017876/C10017876.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:39:56) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/family/topic/N10018909/N10018909.html"}
+Completed in 792ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/family/topic/N10018909/N10018909.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 15:41:43) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/board/view.php?id=2003771"}
+Completed in 615ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/board/view.php?id=2003771]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:19:12) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/board/view.php?id=2003771"}
+
+NoMethodError (undefined method `grabImage' for #<Hpricot::Elem:0x1032e99e8>):
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (25.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#json (for 127.0.0.1 at 2010-12-13 16:19:24) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/board/view.php?id=2003771"}
+
+SyntaxError (/Users/note/Projects/readability_service/lib/hpricot_integrated.rb:338: syntax error, unexpected kEND, expecting $end):
+  app/controllers/service_controller.rb:2
+
+Rendered rescues/_trace (27.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:19:45) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/board/view.php?id=2003771"}
+Completed in 521ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/board/view.php?id=2003771]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:19:54) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+Completed in 2211ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.soccersuck.com/soccer/viewtopic.php?t=361679]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:21:02) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+Completed in 2173ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.soccersuck.com/soccer/viewtopic.php?t=361679]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:21:41) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  lib/hpricot_integrated.rb:282:in `grabImage'
+  lib/hpricot_integrated.rb:271:in `each'
+  lib/hpricot_integrated.rb:271:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (25.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:23:37) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/hpricot_integrated.rb:283:in `grabImage'
+  lib/hpricot_integrated.rb:272:in `each'
+  lib/hpricot_integrated.rb:272:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (28.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:24:39) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/hpricot_integrated.rb:284:in `grabImage'
+  lib/hpricot_integrated.rb:272:in `each'
+  lib/hpricot_integrated.rb:272:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (25.9ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:25:14) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  lib/hpricot_integrated.rb:284:in `grabImage'
+  lib/hpricot_integrated.rb:272:in `each'
+  lib/hpricot_integrated.rb:272:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (26.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:26:38) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+TypeError (can't convert URI::Generic into String):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:32:in `open_uri_original_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:32:in `open'
+  lib/hpricot_integrated.rb:274:in `grabImage'
+  lib/hpricot_integrated.rb:271:in `each'
+  lib/hpricot_integrated.rb:271:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (26.6ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:28:29) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+Errno::ENOENT (No such file or directory - templates/JustFooty/images/spacer.gif):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:32:in `initialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:32:in `open_uri_original_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:32:in `open'
+  lib/hpricot_integrated.rb:274:in `grabImage'
+  lib/hpricot_integrated.rb:271:in `each'
+  lib/hpricot_integrated.rb:271:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (28.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:30:26) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+OpenURI::HTTPError (503 Service Unavailable):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:277:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:616:in `buffer_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:518:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+  lib/hpricot_integrated.rb:275:in `grabImage'
+  lib/hpricot_integrated.rb:271:in `each'
+  lib/hpricot_integrated.rb:271:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (30.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:32:24) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+ArgumentError (comparison of String with 150 failed):
+  lib/hpricot_integrated.rb:280:in `<'
+  lib/hpricot_integrated.rb:280:in `grabImage'
+  lib/hpricot_integrated.rb:271:in `each'
+  lib/hpricot_integrated.rb:271:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (99.3ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:34:54) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+ArgumentError (comparison of Fixnum with String failed):
+  lib/hpricot_integrated.rb:285:in `<'
+  lib/hpricot_integrated.rb:285:in `grabImage'
+  lib/hpricot_integrated.rb:271:in `each'
+  lib/hpricot_integrated.rb:271:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (104.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:36:11) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+
+Timeout::Error (execution expired):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:60:in `rbuf_fill'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:134:in `rbuf_fill'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:2020:in `read_status_line'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:2009:in `read_new'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:1050:in `request'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:248:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/http.rb:543:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:242:in `open_http'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:616:in `buffer_open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:518:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:30:in `open'
+  lib/hpricot_integrated.rb:276:in `grabImage'
+  lib/hpricot_integrated.rb:271:in `each'
+  lib/hpricot_integrated.rb:271:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:40:00) [GET]
+  Parameters: {"url"=>"http://www.soccersuck.com/soccer/viewtopic.php?t=361679"}
+Completed in 23622ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.soccersuck.com/soccer/viewtopic.php?t=361679]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:53:07) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/boy/23070/ใครชอบ-ณเดชน์-คูกิมิยะ.php"}
+
+NameError (undefined local variable or method `best_image_url' for #<Hpricot::Elem:0x1037a08d8>):
+  lib/hpricot_integrated.rb:292:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (26.2ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:53:55) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/boy/23070/ใครชอบ-ณเดชน์-คูกิมิยะ.php"}
+
+NameError (undefined local variable or method `best_image_url' for #<Hpricot::Elem:0x103796b30>):
+  lib/hpricot_integrated.rb:292:in `grabImage'
+  app/controllers/service_controller.rb:117:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (26.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 16:54:27) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/boy/23070/ใครชอบ-ณเดชน์-คูกิมิยะ.php"}
+Completed in 3170ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/boy/23070/%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%8A%E0%B8%AD%E0%B8%9A-%E0%B8%93%E0%B9%80%E0%B8%94%E0%B8%8A%E0%B8%99%E0%B9%8C-%E0%B8%84%E0%B8%B9%E0%B8%81%E0%B8%B4%E0%B8%A1%E0%B8%B4%E0%B8%A2%E0%B8%B0.php]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 17:06:32) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/boy/23070/ใครชอบ-ณเดชน์-คูกิมิยะ.php"}
+Completed in 1756ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/boy/23070/%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%8A%E0%B8%AD%E0%B8%9A-%E0%B8%93%E0%B9%80%E0%B8%94%E0%B8%8A%E0%B8%99%E0%B9%8C-%E0%B8%84%E0%B8%B9%E0%B8%81%E0%B8%B4%E0%B8%A1%E0%B8%B4%E0%B8%A2%E0%B8%B0.php]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 17:10:54) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 4397ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/give4.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/smilex.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/readability/F10016611-0.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/icon_pin.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/vote.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/image/pmail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_flog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_blog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/edit_text2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:10:59) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/addto.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/give4.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/smilex.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/image/pmail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/readability/F10016611-0.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/icon_pin.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/vote.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_flog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_blog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/edit_text2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:11:04) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/addto.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 17:13:04) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 3610ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/icon_pin.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/readability/F10016611-0.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/smilex.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/vote.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/give4.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/image/pmail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_flog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_blog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/addto.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/edit_text2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/icon_pin.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/vote.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/readability/F10016611-0.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/smilex.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/give4.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/image/pmail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/addto.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_blog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_flog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:13:08) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/edit_text2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 17:14:27) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 3748ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/icon_pin.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/smilex.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/image/pmail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/vote.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/readability/F10016611-0.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/give4.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_blog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_flog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/edit_text2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/addto.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/smilex.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/image/pmail.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/icon_pin.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/vote.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/readability/F10016611-0.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_flog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/my_blog.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/give4.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/edit_text2.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-13 17:14:31) [GET]
+
+ActionController::RoutingError (No route matches "/cafe/image/addto.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 17:18:48) [GET]
+  Parameters: {"url"=>"http://beta.obec.go.th/news/150"}
+Completed in 3651ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://beta.obec.go.th/news/150]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 17:21:59) [GET]
+  Parameters: {"url"=>"http://beta.obec.go.th/news/150"}
+Completed in 2373ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://beta.obec.go.th/news/150]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 17:22:12) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 4228ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 17:28:29) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 4374ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:03:55) [GET]
+  Parameters: {"url"=>"http://www.dek-d.com/content/boy/23070/ใครชอบ-ณเดชน์-คูกิมิยะ.php"}
+Completed in 1350ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.dek-d.com/content/boy/23070/%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%8A%E0%B8%AD%E0%B8%9A-%E0%B8%93%E0%B9%80%E0%B8%94%E0%B8%8A%E0%B8%99%E0%B9%8C-%E0%B8%84%E0%B8%B9%E0%B8%81%E0%B8%B4%E0%B8%A1%E0%B8%B4%E0%B8%A2%E0%B8%B0.php]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:06:45) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 1845ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:06:51) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 1836ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:12:30) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 1941ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:13:08) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 2606ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:16:33) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 3259ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:16:38) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 1108ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:20:13) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+
+NoMethodError (undefined method `grabEmbed' for #<Hpricot::Elem:0x102118278>):
+  app/controllers/service_controller.rb:119:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (26.2ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#json (for 127.0.0.1 at 2010-12-13 18:20:21) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+
+SyntaxError (/Users/note/Projects/readability_service/lib/hpricot_integrated.rb:337: syntax error, unexpected kRESCUE, expecting kEND
+          rescue  # catch url errors with vali...
+                ^
+/Users/note/Projects/readability_service/lib/hpricot_integrated.rb:438: syntax error, unexpected $end, expecting kEND):
+  app/controllers/service_controller.rb:2
+
+Rendered rescues/_trace (27.8ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:21:04) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 1007ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:21:09) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 953ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:22:48) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 959ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:23:24) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 1540ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:24:07) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 1047ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:37:23) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 1535ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:38:52) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 943ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:40:34) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 971ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:47:28) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 1723ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:50:38) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+
+NoMethodError (undefined method `grabEmbed' for #<String:0x103523f38>):
+  app/controllers/service_controller.rb:119:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (28.1ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:51:49) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+
+NoMethodError (undefined method `grabEmbed' for #<String:0x103523c68>):
+  app/controllers/service_controller.rb:119:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (27.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:52:52) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html"}
+Completed in 1303ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/chalermkrung/topic/C10017840/C10017840.html]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-13 18:53:16) [GET]
+  Parameters: {"url"=>"http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html"}
+Completed in 3129ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/readability/json?url=http://www.pantip.com/cafe/siam/topic/F10016611/F10016611.html]
+/!\ FAILSAFE /!\  Tue Dec 21 15:37:22 +0700 2010
+  Status: 500 Internal Server Error
+  Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Tue Dec 21 15:37:57 +0700 2010
+  Status: 500 Internal Server Error
+  Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Tue Dec 21 15:37:59 +0700 2010
+  Status: 500 Internal Server Error
+  Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 15:38:24) [GET]
+  Parameters: {"url"=>"http://google.co.th"}
+
+NoMethodError (undefined method `grabImage' for nil:NilClass):
+  app/controllers/service_controller.rb:116:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (101.1ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 15:39:18) [GET]
+  Parameters: {"url"=>"http://google.co.th"}
+
+NoMethodError (undefined method `grabImage' for nil:NilClass):
+  app/controllers/service_controller.rb:116:in `readability_digest'
+  app/controllers/service_controller.rb:5:in `json'
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 15:40:47) [GET]
+  Parameters: {"url"=>"http://google.co.th"}
+Completed in 298ms (View: 0, DB: 0) | 200 OK [http://localhost/readability/json?url=http://google.co.th]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 15:42:51) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/startup/9-tips-achieve-successful-business"}
+Completed in 2469ms (View: 0, DB: 0) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/startup/9-tips-achieve-successful-business]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 15:45:21) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/startup/9-tips-achieve-successful-business"}
+Completed in 815ms (View: 11, DB: 0) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/startup/9-tips-achieve-successful-business]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 15:45:57) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/startup/9-tips-achieve-successful-business"}
+Completed in 934ms (View: 1, DB: 0) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/startup/9-tips-achieve-successful-business]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (137.5ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (293.5ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20101221090020)
+  [4;36;1mSQL (151.3ms)[0m   [0;1mCREATE TABLE `pages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `url` varchar(255), `title` varchar(255), `content` text, `image` varchar(255), `embed` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101221090020')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mdescribe `pages`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `pages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 16:05:22) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/startup/9-tips-achieve-successful-business"}
+  [4;36;1mPage Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.5ms)[0m   [0;1mINSERT INTO `pages` (`created_at`, `title`, `updated_at`, `url`, `content`, `embed`, `image`) VALUES('2010-12-21 09:05:23', '9 เคล็ดลับในการทำธุรกิจให้ประสบความสำเร็จด้วยตนเอง ', '2010-12-21 09:05:23', 'http://incquity.com/articles/startup/9-tips-achieve-successful-business', 'หลายคนมักจะตีความและคิดกันไปเองว่าธุรกิจจะประสบความสำเร็จได้อย่างรวดเร็ว ต้องอาศัยและพึ่งการอุปถัมภ์ค้ำชูจากภายนอกเสมอไป ซึ่งสำหรับยุคปัจจุบันนี้ทฤษฏีดังกล่าวได้ถูกหักล้างความเชื่อในเรื่องนี้ไปได้มากพอสมควรแล้ว เพราะการสร้างธุรกิจใหม่ให้เจริญเติบโตและประสบความสำเร็จไม่จำเป็นต้องอาศัยแรงบวกจากภายนอกแต่เพียงอย่างเดียวอีกต่อไป แต่สามารถสร้างให้เกิดขึ้นได้ด้วยตัวของผู้ประกอบการเอง โดยเคล็ดลับ 9 วิธีสร้างความสำเร็จด้วยตนเองมีดังต่อไปนี้1. มุ่งไปที่กระแสเงินสด กำไรเป็นเรื่องรองนักธุรกิจมักจะถูกสอนให้คิดในเรื่องของกำไรต้องมาก่อนเป็นอันดับแรก ซึ่งจริงๆแล้วควรลองเปลี่ยนทัศนคติเสียใหม่และมุ่งสนใจไปที่กระแสเงินสดหมุนเวียนภายในบริษัทแทน อย่าลืมว่าต้องใช้เงินสดจ่ายบิล ถ้าเกิดมียอดเงินหมุนเวียนอยู่ภายในบริษัทตลอดและมีการจ่ายชำระหนี้ตรงตามเวลา พยายามให้มีการเรียกเก็บเงินระยะสั้นๆ ปิดยอดได้ไวๆ เมื่อนั้นก็จะได้ผลกำไรตอบแทนกลับมาเอง2. ประมาณการความต้องการและกำลังผลิตอย่างต่ำผู้ประกอบการต้องทำการประเมินแนวโน้มความต้องการของตลาดเป้าหมายอยู่ตลอดเวลา จากนั้นจึงทำการกำหนดสัดส่วนความต้องการของธุรกิจบริษัท เช่น ถ้าบริษัทผลิตเกี่ยวกับเครื่องสำอางสตรีที่กลุ่มตลาดเป้าหมายที่ใช้เป็นประจำอยู่ที่ 1 ล้านคน ประมาณการส่วนแบ่งการตลาดขั้นต่ำที่ต้องการได้คือ 10% นั่นหมายถึง 100,000 คน แล้วนำมาคิดด้วยกำลังการผลิตขั้นต่ำของทางบริษัทว่าสามารถทำได้อย่างน้อยกี่ชิ้้นต่อวันแล้วนำไปหักลบกันให้เรียบร้อยเพื่อหากำลังการผลิตว่าสามารถตอบสนองได้หรือไม่นั่นเอง3. วางแผนการทดสอบผลิตภัณฑ์ที่ดีต้องมีการทดสอบอย่างรอบด้าน ผู้ประกอบการควรออกแบบสร้างแผนทดสอบผลิตภัณฑ์ของบริษัทตนเองโดยเริ่มทดสอบในส่วนของคุณสมบัติส่วนตัวและแนวทางการจัดวางจำหน่ายเพื่อจะหาวิธีที่ดีที่สุดในการทำตลาดและจัดจำหน่ายผลิตภัณฑ์ ซึ่งอาจจะเลือกจากจุดเด่นที่ได้มาจากการทดสอบนำมาเป็นแผนแม่บทในการพัฒนาก็ได้4. ผลิตภัณฑ์สามารถพิสูจน์และยอมรับได้จริงเป็นเรื่องสำคัญที่ผลิตภัณฑ์ที่จะนำออกวางจำหน่ายให้แก่ผู้บริโภคนั้น จะต้องสามารถพิสูจน์ได้จริงในเชิงประจักษ์โดยผ่านการทดสอบจากทีมงานผู้เชี่ยวชาญเสียก่อน นอกจากนี้การยอมรับจากสถาบันวิจัยสำคัญยังช่วยเพิ่มมูลค่าให้กับสินค้าและบริการของผู้ประกอบการอีกด้วย5. เริ่มต้นจากการเป็นธุรกิจบริการธุรกิจบริการจะมีข้อดีตรงที่สามารถรับฟังความคิดเห็นของผู้บริโภคได้อยู่ตลอดเวลา ซึ่งนั่นเป็นข้อได้เปรียบในเรื่องของข้อมูลข่าวสารอย่างมหาศาล โดยผู้ประกอบการสามารถนำข้อมูลดังกล่าวพัฒนาออกมาเป็นตัวผลิตภัณฑ์ที่ตรงตามความต้องการของผู้ใช้งานได้ เช่น บริษัทที่ผลิตแชมพูสระผมบางส่วนก็มีที่มาจากการเป็นร้านให้บริการในเรื่องการตัดแต่งและสระผมมาก่อนด้วยกันทั้งนั้น6. มุ่งเน้นไปที่ประโยชน์การใช้งานไม่ใช่รูปแบบผู้บริโภคจะซื้อสินค้าก็ต่อเมื่อมันสามารถตอบสนองต่อความต้องการของเขาได้จริงๆไม่ใช่มองแค่รูปลักษณ์ภายนอกเท่านั้น ดังนั้นการมุ่งพัฒนาคุณสมบัติของผลิตภัณฑ์ให้ตรงตามความต้องการของกลุ่มตลาดเป้าหมาย จึงเป็นสิ่งสำคัญที่สุดอันจะทำให้ธุรกิจของผู้ประกอบการสามารถสร้างรายได้เป็นกอบเป็นกำกลับคืนมาสู่ธุรกิจของบริษัทภายในเวลาอันรวดเร็ว7. จัดหาพนักงานให้เพียงพอบ่อยครั้งที่ผลลัพธ์ที่ได้ออกมาจากการทำธุรกิจค่อนข้างที่จะน่าผิดหวัง เพราะมีที่มาจากจำนวนพนักงานที่ไม่เพียงพอบวกกับไม่มีความรู้ความสามารถโดยตรงกับงานที่กำหนดไว้ ดังนั้นผู้ประกอบการจะต้องจัดหาพนักงานที่มีความรู้ และมีจำนวนพนักงานที่เพียงพอสำหรับรองรับการทำงานที่พร้อมจะเติบโตต่อไปในอนาคตด้วย8. ใช้วิธีขายตรงเป็นตัวเบิกทางการขายตรงเป็นวิธีการค้าขายที่เก่าแก่มากที่สุดในโลก ควรทดลองใช้วิธีดังกล่าวเป็นอันดับแรกในการทำตลาด เพราะจะทำให้ผู้ประกอบการสามารถสัมผัสได้อย่างแท้จริงถึงปัญหาของผลิตภัณฑ์ที่ได้รับจากกระแสตอบรับของผู้บริโภคโดยตรง และยังเป็นการตัดขั้นตอนในส่วนของพ่อค้าคนกลางที่เรียกรับผลประโยชน์ออกไป จึงทำให้ผู้ประกอบการได้กำไรที่เพิ่มมากขึ้นด้วย นอกจากนี้การค้าขายผ่านหน้าจอคอมพิวเตอร์หรือที่เรียกว่า E Commerce ก็เป็นวิธีการขายตรงรูปแบบใหม่ที่น่าสนใจอยู่มิใช่น้อยในปัจจุบัน9. จัดตำแหน่งผลิตภัณฑ์ในตลาดถ้าผู้ประกอบการสามารถจัดอันดับตำแหน่งผลิตภัณฑ์ของบริษัทตนเองได้นั่นจะเป็นประโยชน์อย่างมากในการทำธุรกิจ เพราะพฤติกรรมผู้บริโภคส่วนใหญ่จะเลือกซื้อสินค้าที่เหมาะสมกับสถานะของตน เช่น ลูกค้าที่มีรายได้ต่างกันก็จะเลือกซื้อสินค้าที่มีราคาต่างกัน เป็นต้น ดังนั้นการจัดตำแหน่งผลิตภัณฑ์จึงเป็นสิ่งที่ผู้ประกอบการสมควรจะต้องพึงกระทำเพราะจะช่วยให้ผลิตภัณฑ์ขายได้ง่ายและในเวลาที่รวดเร็วมากขึ้นนั่นเองต่อให้ธุรกิจของผู้ประกอบการจะมีผู้อุปถัมภ์ค้ำชูที่ยอดเยี่ยมสักเพียงใดก็ตาม ที่สุดแล้วธุรกิจของผู้ประกอบการจะประสบความสำเร็จได้ก็ต้องยืนอยู่บนลำแข้งของตัวเองให้ได้เสียก่อน เพราะในโลกแห่งความเป็นจริงคงไม่มีใครที่จะคอยสนับสนุนธุรกิจอื่นๆไปได้โดยตลอดอย่างแน่นอน ดังนั้นผู้ประกอบการจึงต้องเป็นผู้สร้างรากฐานที่มั่นคงให้กับกิจการนั่นเอง', '--- !seq:Hpricot::Elements []\n\n', 'http://incquity.com/sites/incquity.com/files/imagecache/cover_full_body/cover/article/675.jpg')[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCOMMIT[0m
+Completed in 993ms (View: 1, DB: 4) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/startup/9-tips-achieve-successful-business]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` [0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`url` = 'avcx') LIMIT 1[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`url` = 'http://incquity.com/articles/startup/9-tips-achieve-successful-business') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#json (for 127.0.0.1 at 2010-12-21 16:09:19) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/startup/9-tips-achieve-successful-business"}
+
+SyntaxError (/Users/note/Projects/readability_service/app/controllers/service_controller.rb:109: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (25.0ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 16:09:51) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/startup/9-tips-achieve-successful-business"}
+  [4;36;1mPage Columns (11.7ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`url` = 'http://incquity.com/articles/startup/9-tips-achieve-successful-business') LIMIT 1[0m
+Completed in 115ms (View: 1, DB: 12) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/startup/9-tips-achieve-successful-business]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 16:09:59) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/startup/9-tips-achieve-successful-business"}
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (2.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`url` = 'http://incquity.com/articles/startup/9-tips-achieve-successful-business') LIMIT 1[0m
+Completed in 18ms (View: 0, DB: 4) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/startup/9-tips-achieve-successful-business]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 16:10:24) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/marketing-boost/8p-marketing"}
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`url` = 'http://incquity.com/articles/marketing-boost/8p-marketing') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Create (0.4ms)[0m   [0mINSERT INTO `pages` (`created_at`, `title`, `updated_at`, `url`, `content`, `embed`, `image`) VALUES('2010-12-21 09:10:25', 'กลยุทธ์การตลาด 8P ความรู้พื้นฐานสำหรับผู้ประกอบการ ', '2010-12-21 09:10:25', 'http://incquity.com/articles/marketing-boost/8p-marketing', 'กลยุทธ์ทางการตลาดจัดเป็นอาวุธที่มีประสิทธิภาพอย่างหนึ่งในการทำธุรกิจของผู้บริหาร ซึ่งปัจจุบันมีรูปแบบกลยุทธ์ให้เลือกมากมายสำหรับนำมาปรับใช้เพื่อความเหมาะสมของธุรกิจ แต่กลยุทธ์ที่ต้องถือเป็นต้นแบบทางการตลาดอย่างแท้จริงคงเห็นจะหนีไม่พ้นกลยุทธ์ 8P เพราะนักธุรกิจทั่วโลกต่างยกนิ้วและให้การยอมรับว่ามีประสิทธิภาพในการทำการตลาดค่อนข้างสูงสามารถเห็นผลได้อย่างชัดเจนอีกทั้งยังถือว่ากลยุทธ์นี้เป็นแม่บทในการพัฒนากลยุทธ์ซีรี่ย์ต่างๆตามหลังออกมาในปัจจุบันอีกด้วย จึงเป็นสิ่งสมควรที่ผู้ประกอบการจะต้องทำความรู้จักและศึกษาเรียนรู้ความหมายเกี่ยวกับกลยุทธ์ดังกล่าวนี้อย่างที่สุด1. กลยุทธ์ผลิตภัณฑ์ (Product Strategy) กลยุทธ์ในส่วนแรกนี้จะเป็นเรื่องที่เกี่ยวข้องกับการตัดสินใจในส่วนที่เกี่ยวเนื่องกับตัวผลิตภัณฑ์ทั้งหมด ไม่ว่าจะเป็นส่วนของคุณสมบัติส่วนตัวที่ต้องตั้งเป้าว่าจะสามารถตอบสนองต่อความต้องการของผู้บริโภคได้ในระดับความพึงพอใจขนาดไหน การนำสินค้าไปเปรียบเทียบกับผลิตภัณฑ์ของคู่แข่งขันในท้องตลาดว่ามีจุดเด่นและจุดด้อยอย่างไร นอกจากนี้ยังมีในส่วนของวัตถุดิบและสายงานการผลิตด้วย 2. กลยุทธ์ราคา (Price Strategy) การกำหนดราคาของผลิตภัณฑ์สินค้าถือเป็นกลยุทธ์สำคัญของแผนงานทางการตลาดที่จะช่วยสร้างความได้เปรียบมากขึ้น โดยการกำหนดราคาจะต้องคำนึงถึงปัจจัยของต้นทุนการผลิตบวกกับผลกำไรที่ต้องการจะได้จากการขายผลิตภัณฑ์แล้วจึงทำการกำหนดราคาขายออกมาโดยต้องคำนึงสภาพการแข่งขันของตลาดสินค้า นอกจากนี้การกำหนดราคายังมีนัยที่บ่งบอกถึงตำแหน่งที่ต้องการจะให้สินค้าไปยืนอยู่ด้วย ซึ่งการตั้งราคาอาจจะตั้งให้ใกล้เคียงกับสินค้าประเภทเดียวกันบนท้องตลาด หรือน้อยกว่าถ้าต้องการแย่งชิงฐานลูกค้า และมากกว่าถ้าต้องการวางตำแหน่งผลิตภัณฑ์ให้อยู่เหนือกว่าผลิตภัณฑ์ทั่วไป 3. กลยุทธ์ช่องทางการจัดจำหน่าย (Place Strategy) ช่องทางการจัดจำหน่ายเป็นหนึ่งในยุทธศาสตร์สำคัญของการวางกลยุทธ์ทางการตลาด เพราะถ้าสามารถหาช่องทางการกระจายสินค้าไปสู่มือผู้บริโภคได้มากเท่าไหร่ ผลกำไรก็จะเพิ่มสูงขึ้นมากเท่านั้น โดยช่องทางการจัดจำหน่ายที่นิยมใช้กันในปัจจุบันมีอยู่ด้วยกันสองรูปแบบคือ การขายไปสู่มือของผู้บริโภคโดยตรงและการขายผ่านพ่อค้าคนกลาง ซึ่งสองวิธีนี้จะมีข้อแตกต่างอยู่ตรงที่ว่าการขายตรงไปสู่มือผู้ใช้สินค้าจะได้กำไรที่มากกว่า ในขณะที่การขายผ่านพ่อค้าคนกลางจะช่วยในเรื่องของยอดการจำหน่ายที่สูงขึ้นอันมีผลมาจากเครือข่ายที่พ่อค้าคนกลางได้วางเอาไว้นั่นเอง 4. กลยุทธ์การส่งเสริมการตลาด (Promotion Strategy) การส่งเสริมการตลาดถ้าจะให้เปรียบเทียบน่าจะเหมือนกับการใช้เข็มฉีดยารักษาโรค เพราจะมีประสิทธิภาพช่วยในการขายสินค้าได้เป็นอย่างดี ถ้าโปรโมชั่นที่ออกมาโดนใจลูกค้าก็จะช่วยให้ยอดขายและผลกำไรทวีสูงมากยิ่งขึ้น โดยกลยุทธ์การตลาดนี้จะต้องช่วยส่งเสริมและสอดคล้องไปกันได้กับกลยุทธ์อย่างอื่นด้วย โดยการส่งเสริมการตลาดนี้สามารถทำได้หลายวิธีไม่ว่าจะเป็นการลด แลก แจก แถม เป็นต้น 5. กลยุทธ์บรรจุภัณฑ์ (Packaging Strategy) บรรจุภัณฑ์มีความสำคัญเปรียบเสมือนเป็นหน้าตาของสินค้า ดังนั้นการออกแบบดีไซน์รูปลักษณ์บรรจุภัณฑ์จึงเป็นกลยุทธ์ที่สำคัญอย่างหนึ่ง โดยหลักสำคัญที่ควรจะต้องคำนึงถึงเมื่อทำการออกแบบบรรจุภัณฑ์ตามแผนการกลยุทธ์นี้ก็คือจะต้องมีความสวยงามเหมาะสมกับผลิตภัณฑ์อีกทั้งความโดดเด่นเมื่อนำไปวางบนชั้นสินค้าเปรียบเทียบกันกับของคู่แข่งจะต้องมีความเหนือชั้นกว่าจึงจะประสบความสำเร็จตามแผนงานนี้ 6. กลยุทธ์การใช้พนักงานขาย (Personal Strategy) ทางเลือกหนึ่งที่จะช่วยทำให้ยอดขายทะยานไต่ระดับพุ่งสูงขึ้นก็คือการเลือกใช้กลยุทธ์พนักงานขายเป็นตัวช่วยส่งเสริม การขายสินค้าโดยใช้พนักงานถือเป็นศิลปะการขายขั้นสูงที่ไม่สามารถลอกเลียนแบบกันได้ง่ายๆ พนักงานขายที่มีความรู้ความสามารถบวกกับประสบการณ์จะมีเทคนิคการจูงใจลูกค้าให้เข้ามาสนใจและนำพาไปสู่ action นั่นก็คือการตัดสินใจซื้อในที่สุด 7. กลยุทธ์ข่าวสาร (Public Relation Strategy) ยุคโลกไร้พรมแดนอย่างในปัจจุบัน การสื่อสารคือกุญแจสำคัญที่นำไปใช้ไขสู่ประตูความสำเร็จ เพราะสภาพแวดล้อมการใช้ชีวิตของผู้คมในสังคมเมืองและชนบทถูกแวดล้อมไปด้วยสื่อต่างๆมากมาย การใช้กลยุทธ์ข่าวสารเข้ามาเป็นทัพเสริมอีกแรงหนึ่งในการทำการตลาดจะช่วยอำนวยผลในเรื่องของภาพพจน์และเพิ่มทัศนคติในเชิงบวกให้เกิดกับผลิตภัณฑ์ของผู้ประกอบการ 8. กลยุทธ์การใช้พลัง (Power Strategy) พลังในที่นี้หมายถึงอำนาจในการต่อรองและควบคุม ซึ่งดูเหมือนจะเป็นสิ่งที่ยากที่สุดในการเนรมิตให้เกิดขึ้น แต่ก็เป็นสิ่งที่จำเป็นและจะขาดเสียไม่ได้ในองค์ประกอบตัวพีส่วนสุดท้ายนี้ เพราะอำนาจต่อรองจะสามารถเป็นพลังพิเศษเปรียบเสมือนมือที่มองไม่เห็น ที่จะนำมาใช้ต่อรองแลกเปลี่ยนผลประโยชน์ทางการค้าให้บริษัทได้รับข้อเสนอที่ดีที่สุดในกรณีที่ไม่สามารถตกลงกันตามกรอบได้อย่างลงตัว กลยุทธ์ 8P ตามที่ได้กล่าวมานี้เป็นเครื่องมือพื้นฐานที่นักธุรกิจส่วนใหญ่นำไปใช้เป็นบรรทัดฐานในการทำการตลาดให้กับบริษัทของตนเองกันทุกคน โดยมีข้อแตกต่างกันตรงที่บางบริษัทกับประสบความสำเร็จแต่บางบริษัทกับล้มเหลวอย่างสิ้นเชิง เหตุผลที่เป็นเช่นนั้นก็เพราะบริษัทที่ล้มเหลวไม่อาจจะสร้างองค์ประกอบทางกลยุทธ์ตัวพีขึ้นมาได้ครบทุกตามวงจร ดังนั้นผู้ประกอบการที่สนใจจะใช้กลยุทธ์นี้ทำการตลาดให้ได้อย่างเห็นผลประจักษ์จะต้องเอาใจใส่ในทุกรายละเอียดของแต่ละกลยุทธ์เพื่อสร้างสรรค์ตัว P ทั้งแปดให้เกิดขึ้นมาให้ได้', '--- !seq:Hpricot::Elements []\n\n', 'http://incquity.com/sites/incquity.com/files/imagecache/cover_full_body/cover/article/528.jpg')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Completed in 1153ms (View: 1, DB: 2) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/marketing-boost/8p-marketing]
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 16:19:00) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/marketing-boost/8p-marketing"}
+  [4;35;1mPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`url` = 'http://incquity.com/articles/marketing-boost/8p-marketing') LIMIT 1[0m
+Completed in 17ms (View: 1, DB: 2) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/marketing-boost/8p-marketing]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 16:27:32) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/marketing-boost/8p-marketing"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`url` = 'http://incquity.com/articles/marketing-boost/8p-marketing') LIMIT 1[0m
+
+NoMethodError (undefined method `truncate' for #<ServiceController:0x10347ed30>):
+  app/controllers/service_controller.rb:9:in `json'
+
+Rendered rescues/_trace (26.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 17:18:08) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/marketing-boost/8p-marketing"}
+  [4;35;1mPage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`url` = 'http://incquity.com/articles/marketing-boost/8p-marketing') LIMIT 1[0m
+Completed in 8ms (View: 0, DB: 2) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/marketing-boost/8p-marketing]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ServiceController#json (for 127.0.0.1 at 2010-12-21 17:20:32) [GET]
+  Parameters: {"url"=>"http://incquity.com/articles/marketing-boost/premium-product-pricing"}
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`url` = 'http://incquity.com/articles/marketing-boost/premium-product-pricing') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Create (0.4ms)[0m   [0mINSERT INTO `pages` (`created_at`, `title`, `updated_at`, `url`, `content`, `embed`, `image`) VALUES('2010-12-21 10:20:33', 'กลยุทธ์การกำหนดราคาสินค้าพรีเมี่ยม ', '2010-12-21 10:20:33', 'http://incquity.com/articles/marketing-boost/premium-product-pricing', 'การกำหนดราคาสินค้าและบริการถือเป็นเรื่องสำคัญอันดับต้นๆเลยก็ว่าได้สำหรับวงจรการดำเนินงานทางธุรกิจ เพราะความสำเร็จและผลกำไรจะถูกขึ้นอยู่กับการตั้งราคาผลิตภัณฑ์และบริการ ดังนั้นการกำหนดราคาจึงเป็นเรื่องใกล้ตัวมากสำหรับผู้ประกอบการทุกคน ซึ่งถ้าหากสินค้าและบริการของผู้ประกอบการไม่ได้มีราคาพร้อมต้นทุนหรือถูกจัดอยู่ในตลาดกลุ่มผู้บริโภคที่สูงมากนัก ก็คงไม่น่าจะมีปัญหาปัญหาในเรื่องของการตั้งราคา เพราะสามารถอ้างอิงจากท้องตลาดได้ แต่ถ้าเกิดสินค้าของผู้ประกอบการมีต้นทุนที่สูงและกลุ่มลูกค้าส่วนใหญ่อยู่ในระดับบนปัญหาในการตั้งราคาจะเกิดขึ้นกับท่านโดยทันที เนื่องจากจะไม่สามารถตั้งราคาอ้างอิงกับตลาดได้Paul Spiegelman นักธุรกิจผู้มากประสบการณ์เกี่ยวกับงานบริการลูกค้า ได้ให้คำแนะนำเกี่ยวกับการตั้งราคาสำหรับสินค้าและบริการในระดับพรีเมี่ยมว่าควรจะมีกลยุทธ์การตั้งราคาที่ดีและมีลักษณะเป็นรูปแบบแผนอย่างมืออาชีพมากขึ้น โดยมีรูปแบบทั้ง 6 ขั้นตอนดังต่อไปนี้สินค้าและบริการต้องมีระดับที่อยู่ในพรีเมี่ยมจริงถ้าคิดจะทำธุรกิจที่มีราคาขายค่อนข้างสูงและกลุ่มเป้าหมายอยู่ในระดับบนให้ประสบความสำเร็จจริง เรื่องของคุณภาพสินค้าหรือบริการจะต้องต้องเป็นสิ่งที่เด่นที่สุด เพราะสินค้าจะขายไม่ได้เลยหากมีราคาแพงแต่คุณสมบัติกับเป็นเพียงแค่ของพื้นๆสามารถหาซื้อได้จากตามตลาดทั่วไป ดังนั้นผู้ประกอบการจะต้องมั่นใจเสียก่อนว่าสินค้าของตนเองดีจริงสามารถตอบสนองต่อความต้องการของผู้บริโภคได้มากกว่าสินค้าทั่วไปในท้องตลาด จึงจะเป็นกุญแจสำคัญดอกที่ 1 หากคิดจะขายของแพงให้ประสบความสำเร็จกำหนดราคาที่สูงกว่าอย่างมีเหตุผลถ้าสินค้าและบริการของผู้ประกอบการดีกว่าของคู่แข่งในท้องตลาดจริง เชื่อว่าผู้บริโภคพร้อมจะควักเงินในกระเป๋ามาซื้ออย่างแน่นอนแต่ติดอยู่แค่ปัญหาเดียวที่พวกเขาต้องการจะทราบมากที่สุดนั่นก็คือทำไมเขาต้องจ่ายราคาที่แพงกว่าด้วย ดังนั้นผู้ประกอบการจะต้องอธิบายให้ผู้บริโภคเข้าใจว่าสาเหตุเหตุที่สินค้าและบริการของท่านราคาสูงกว่าเพราะอะไร และมันดีกว่าของคู่แข่งที่ราคาถูกกว่ายังไง ซึ่งเหตุผลที่ผู้ประกอบการอธิบายออกไปในข้อนี้จะช่วยสนับสนุนการตัดสินใจขั้นสุดท้ายของผู้บริโภคด้วยมีพนักงานขายที่ดีและมีคุณภาพธุรกิจป็นจำนวนมากที่กำหนดราคาพร้อมวางสินค้าและบริการของตนเองอยู่ในระดับที่สูงสามารถประสบความสำเร็จได้ก็เนื่องจากการมีพนักงานฝ่ายขายที่ดี ดังนั้นผู้ประกอบการจะต้องคัดเลือกพนักงานฝ่ายขายที่ดีที่สุดอันเป็นระดับหัวกระทิของตนให้ไปทำหน้าที่ขายสินค้าและบริการประเภทนี้ เพราะความรู้บวกกับเทคนิคส่วนตัวของพนักงานจะช่วยทำให้สามารถปิดการขายอย่างประสบควมสำเร็จได้ในเวลาอันรวดเร็ว ทั้งนี้ต้องขึ้นอยู่กับโจทย์และแรงจูงใจที่ผู้ประกอบการให้พนักขายของตนเองด้วย อาทิ การให้เปอร์เซ็นต์ค่าคอมมิชชั่นจากยอดขาย เป็นต้นไม่ลดราคาลงไปแข่งสิ่งหนึ่งที่ผู้ประกอบการจะต้องมีหากคิดจะขายสินค้าที่มีคุณภาพแต่ราคาแพงนั่นก็คือ ความหนักแน่น เนื่องจากจะไม่มีประโยชน์อะไรเลยหากผู้ประกอบการมีจุดวัดความสำเร็จที่ยอดการสั่งซื้อเพียงอย่างเดียว เพราะถ้าให้ลองเปรียบเทียบเป็นหลักสมการง่ายๆท่านจะเข้าใจว่าสินค้าที่มีราคาขายถึง 1 ล้านบาท เมื่อเทียบกันกับสินค้าที่มีราคาขายเพียง 1 แสนบาท สินค้าอย่างหลังที่มีราคาถูกกว่าย่อมจะต้องมียอดขายที่มากกว่าเป็นธรรมดา แต่ประเด็นที่อยากให้มองคือสินค้าที่ถูกกว่าไม่มีทางที่จะตอบสนองความต้องการได้เท่ากันกับในระดับสินค้าที่มีราคาแพงกว่าอย่างแน่นอน ดังนั้นผู้ประกอบการจะต้องหนักแน่นและไม่ลดราคาลงไปขายแข่งกับสินค้าที่มีราคาถูกกว่าเพราะนั่นจะเท่ากับเป็นการลดเกรดของท่านเองลงไปในตัวด้วยไม่ทำสงครามราคากับคู่แข่งถึงแม้การลดราคาจะสามารถสร้างยอดจำหน่ายสินค้าและบริการให้เพิ่มขึ้นอย่างรวดเร็วได้ แต่มันไม่มีทางที่จะเป็นประโยชน์ไปได้เลยหากสุดท้ายแล้วธุรกิจของผู้ประกอบการขาดทุน ดังนั้นผู้ประกอบการทุกคนที่จำหน่ายสินค้าและบริการในระดับพรีเมี่ยมจะต้องไม่ลงไปทำการแข่งขันเปิดศึกในสงครามราคาอย่างเด็ดขาด เพราะว่าตัวสินค้าของท่านมีที่มาที่ไปอยู่แล้วว่าทำไมต้องกำหนดราคาขายที่เท่านี้ ซึ่งมันรวมไปถึงจุดคุ้มทุนและระดับของผลกำไรด้วย การลดราคาลงไปแข่งขันจะทำให้โครงสร้างในส่วนดังกล่าวบิดเบือนไปจากเดิมและสุดท้ายอาจนำมาซึ่งการขาดทุนได้ในที่สุดมีโครงสร้างทางการเงินที่มีเสถียรภาพแน่นอนที่สุดการที่ราคาขายสินค้าและบริการของผู้ประกอบการมีราคาแพงก็เป็นผลสืบเนื่องมาจากการมีต้นทุนแรกเริ่มที่รับมาสูงมากนั่นเอง ดังนั้นเพื่อให้การดำเนินธุรกิจเป็นไปอย่างมีประสิทธิภาพผู้ประกอบการต้องมั่นใจเสียก่อนว่าบริษัทของตนเองมีโครงสร้างทางการเงินที่มีเสถียรภาพและแข็งแรงมากพอ เพราะหากสินค้ามียอดจำหน่ายที่ไม่สูงมากนัก (ส่วนใหญ่ก็มักจะเป็นเช่นนั้น) จำนวนเงินในระบบมากกว่าครึ่งจะต้องไปจมอยู่กับต้นทุนแน่นอน โครงสร้างทางการเงินของผู้ประกอบการจึงต้องมีระบบเงินหมุนเวียนที่มากพอด้วยเช่นกันผู้ประกอบการทุกท่านต้องเข้าใจว่าสินค้าที่มีราคาแพงนั้นมันมีจุดเด่นของมันเองอยู่แล้วภายในตัว รวมถึงที่มาที่ไปของราคาที่มาลงตัวอยู่ ณ จุดนี้ด้วย ดังนั้นสิ่งที่ควรทำที่สุดก็คือการพยายามดึงจุดเด่นที่มีอยู่ในตัวสินค้าและบริการออกมานำเสนอต่อผู้บริโภคให้เห็นถึงข้อดีที่จะเกิดขึ้นหากใช้สินค้าของเรา พยายามทำให้ผ้บริโภคเข้าใจให้ได้ว่าสินค้าของเราสามารถให้ได้มากกว่าของคู่แข่งอื่นในท้องตลาดอย่างไรและทำไมถึงต้องเรา จึงจะเป็นกลยุทธ์ในการขายสินค้าในระดับพรีเมี่ยมที่ดีที่สุด', NULL, 'http://incquity.com/sites/incquity.com/files/imagecache/cover_full_body/cover/article/574.jpg')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Completed in 1526ms (View: 0, DB: 2) | 200 OK [http://localhost/readability/json?url=http://incquity.com/articles/marketing-boost/premium-product-pricing]
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` [0m

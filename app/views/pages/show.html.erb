@@ -1,0 +1,28 @@
+<p>
+  <b>Url:</b>
+  <%=h @page.url %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @page.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%=h @page.content %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%=h @page.image %>
+</p>
+
+<p>
+  <b>Embed:</b>
+  <%=h @page.embed %>
+</p>
+
+
+<%= link_to 'Edit', edit_page_path(@page) %> |
+<%= link_to 'Back', pages_path %>
