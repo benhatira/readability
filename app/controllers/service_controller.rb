@@ -3,12 +3,16 @@ class ServiceController < ApplicationController
   require "hpricot_integrated"
   def json
     url = params[:url]
-    unless @page = Page.find_by_url(url)
-      json = readability_digest(params[:url])
-      @page = Page.create(json)
+    ret = "{}"
+    if url.present?
+      unless @page = Page.find_by_url(url)
+        json = readability_digest(params[:url])
+        @page = Page.create(json)
+      end    
+      @page.content = truncate(@page.content , :length => 250, :omission => ' ...')
+      ret = @page.to_json
     end
-    @page.content = truncate(@page.content , :length => 120, :omission => ' ...')
-    render :text => @page.to_json#{}"<p>#{json[:title]}</p><p>#{json[:content]}</p><p>#{json[:image]}</p><p>#{json[:embed]}</p>", :layout => false
+    render :text => ret
   end
   
   def readability_digest(url)
@@ -104,6 +108,6 @@ class ServiceController < ApplicationController
     puts topCandidate.inner_content#content#Iconv.conv('UTF-8//ignore', 'tis-620', topCandidate.inner_text.gsub(/\s+/,' '))
     return {:url => url ,:title => articleTitle , :content => topCandidate.inner_content , :image => screenshot , :embed => embed}
   rescue
-    return {:url => "" , :title => "" , :content => "" , :image => "" , :embed => ""}
+    return {:url => url , :title => "" , :content => "" , :image => "" , :embed => ""}
   end
 end
