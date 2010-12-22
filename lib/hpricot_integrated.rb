@@ -347,6 +347,7 @@ class Hpricot::Doc
           #puts "============debug div clean============"
           if(base_url.match(/dek-d\.com/i))
               self.search('div#rightpanel').remove
+              self.search('div#boardowner').remove
           end
           self.cleanConditionally("div")
            #puts "============end  debug div clean============"
