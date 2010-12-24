@@ -9,7 +9,7 @@ class ServiceController < ApplicationController
         json = readability_digest(params[:url])
         @page = Page.create(json)
       end    
-      @page.content = truncate(@page.content , :length => 250, :omission => ' ...')
+      @page.content = truncate(@page.content , :length => 475, :omission => ' ...')
       ret = @page.to_json
     end
     render :text => ret
@@ -24,7 +24,7 @@ class ServiceController < ApplicationController
         json = readability_digest(params[:url])
         @page = Page.new(json)
       end    
-      @page.content = truncate(@page.content , :length => 250, :omission => ' ...')
+      @page.content = truncate(@page.content , :length => 475, :omission => ' ...')
     end
     ret = "url: #{@page.url}<br>title: #{@page.title} <br>content: #{@page.content}<br>image: #{@page.image}<br>embed: #{@page.embed}"
     render :text => ret
